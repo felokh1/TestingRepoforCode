@@ -1,7 +1,7 @@
 provider "aws" {
   region = var.region
 }
-
+#Testing
 #Creating the VPC
 resource "aws_vpc" "my-vpc" {
   cidr_block  = var.vpc_cidr
